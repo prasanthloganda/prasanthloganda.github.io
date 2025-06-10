@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f8fb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #fff;
+    max-width: 900px;
+    margin: 30px auto 30px auto;
+    box-shadow: 0 0 14px 2px #ddd;
+    border-radius: 12px;
+    padding: 40px 40px 20px 40px;
+}
+header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #0056b3;
+}
+header h2 {
+    margin: 0;
+    color: #4a90e2;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.contact p {
+    margin: 6px 0;
+    color: #555;
+}
+section {
+    margin-top: 22px;
+}
+section h3 {
+    color: #0056b3;
+    border-bottom: 1px solid #e1e8ee;
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+.skills, .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    padding-left: 0;
+    list-style: none;
+}
+.skills li, .links li {
+    background: #eaf4fd;
+    color: #1d518b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.98rem;
+    margin-bottom: 6px;
+}
+.links a {
+    color: #1d518b;
+    text-decoration: none;
+    font-weight: 500;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.job {
+    margin-bottom: 16px;
+}
+.job h4 {
+    margin: 0 0 7px 0;
+    font-size: 1.1rem;
+    color: #1976d2;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.job span {
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: #888;
+}
+.job ul {
+    margin: 0 0 0 18px;
+    padding: 0;
+    font-size: 0.99rem;
+}
+button#downloadBtn {
+    display: block;
+    margin: 30px auto 0 auto;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #e3e3e3;
+    transition: background 0.2s;
+}
+button#downloadBtn:hover {
+    background: #145a96;
+}
+@media (max-width: 650px) {
+    .container {
+        padding: 12px 4vw 10px 4vw;
+    }
+}
